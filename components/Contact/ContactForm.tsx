@@ -50,7 +50,7 @@ export default function ContactForm() {
         },
         body: JSON.stringify({
           // Use Next.js public environment variable or insert your Web3Forms access key directly
-          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "YOUR_WEB3FORMS_ACCESS_KEY",
+          access_key: process.env.NEXT_PUBLIC_YOUR_KEY_NAME || "YOUR_WEB3FORMS_ACCESS_KEY",
           from_name: "Indigo Blossom Beauty Website",
           ...formData,
         }),

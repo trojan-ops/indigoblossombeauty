@@ -1,0 +1,44 @@
+
+
+next up add pictures 
+
+try adding different styles ??? maybe 
+
+$e tree
+$ff find 
+$[b tab 
+$]b tab right 
+$ft terminal toggle 
+
+#### this is just another way to run code
+:term npm run dev
+c \ c n exit 
+c w enter 
+$bd delete tab 
+
+
+#### else just use $ft 
+then type npm run dev
+then pres esc and toggle with $ft back 
+
+##############################################
+emacs part 
+##############################################
+
+
+c-x k kill buffer
+spc o p toggle tree
+c x 2
+c x 3 split screen
+c x 0 remove split
+
+c x o toggle between screens
+
+emacs ~/.config/doom/init.el
+doom sync
+
+z a code folding
+z r unfoldl everything
+z m top level only 
+
+

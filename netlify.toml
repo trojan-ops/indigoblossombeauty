@@ -2,5 +2,10 @@
   command = "npm run build"
   publish = ".next"
 
+[build.environment]
+  # These files reference the Web3Forms env var by name only (no secret value).
+  # The name matches a secret-flagged scan setting, so exclude them from scanning.
+  SECRETS_SCAN_OMIT_PATHS = "components/Contact/ContactForm.tsx,.netlify/.next/cache/**,.netlify/.next/server/chunks/**/*.map"
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
